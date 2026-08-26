@@ -9,15 +9,15 @@ redirect_from:
 
 <div class="with-particles" markdown="1">
 
-I am an undergraduate researcher in Industrial and Systems Engineering at the University of Oklahoma studying optimization under imperfect information, especially in public and infrastructure systems. My work asks how decision-makers should act when models are simplified, data are incomplete, and resources are constrained.
+I am an undergraduate researcher in Industrial and Systems Engineering (Honors) at the University of Oklahoma, with a minor in Mathematics. My research interests center on dynamic and networked systems, optimization under uncertainty, and public-sector resource allocation.
 
-I am building that agenda through two connected streams of work: regret-aware optimization for public planning and resilience analysis for large transportation networks. Across both, I am interested in how mathematical models can remain useful when the information available to the decision-maker is incomplete, imperfect, or changing over time.
+I am building that agenda through two connected streams of work: regret-aware optimization for public planning and resilience analysis for large transportation networks. Across both, I am interested in how mathematical models remain useful when objectives are imperfect proxies, parameters are uncertain, and the information available to the decision-maker is incomplete or changing over time.
 
-Recent outputs include an accepted conference proceedings paper at the *IISE Annual Conference & Expo*, poster presentations on park-access modeling and parameterization regret, and current research in the NetSys Research Lab on airline network disruption and recovery.
+Recent outputs include an accepted conference proceedings paper at the *IISE Annual Conference & Expo*, poster presentations at *CalGIS 2026* and Clemson's Undergraduate Research Poster Symposium, and an accepted poster for the NSF Engineering Education and Centers (EEC) Grantees Conference in September-October 2026.
 
 That perspective shapes the kinds of questions I want to pursue in a PhD in Industrial Engineering or Operations Research: optimization frameworks that better reflect the informational limits and modeling tradeoffs faced by real decision-makers, especially in public-good settings.
 
-I also highlight a small number of selected projects when they show the same broader research habits: problem formulation, careful modeling choices, and interpretation of tradeoffs. Some of that work comes from research settings and some from coursework, but I aim to present all of it transparently and selectively.
+I also care about research community-building and currently serve as President of the Oklahoma Institute of Industrial and Systems Engineers (IISE) student chapter. On this site, I highlight a small number of selected projects that best show the same broader research habits: problem formulation, careful modeling choices, and interpretation of tradeoffs.
 
 [Research]({{ base_path }}/research/){: .btn .btn--primary}
 [Research Outputs]({{ base_path }}/publications/){: .btn .btn--inverse}
@@ -26,15 +26,16 @@ I also highlight a small number of selected projects when they show the same bro
 ## Start Here
 
 - `Research:` research agenda, flagship projects, methods, and current directions.
-- `Research Outputs:` conference proceedings, posters, and research-in-progress entries.
-- `CV:` education, coursework, honors, and a full record of experience and presentations.
+- `Research Outputs:` conference proceedings, posters, accepted presentations, and research-in-progress entries.
+- `CV:` education, coursework, honors, leadership, certifications, and a full record of experience and presentations.
 
 ## Research At a Glance
 
-- `Research agenda:` optimization and decision support under uncertainty in public and infrastructure systems.
-- `Current work:` airline network resilience and dynamic recovery using Dynamic Mode Decomposition and network-based analysis.
+- `Research interests:` dynamic and networked systems, optimization under uncertainty, and public-sector resource allocation.
+- `Current work:` airline network resilience and temporal recovery using Dynamic Mode Decomposition, tensor-based modeling, and Bureau of Transportation Statistics data.
 - `Flagship output:` accepted IISE conference proceedings paper on park-location optimization under imperfect information.
-- `Methods:` mixed-integer optimization, bi-level and regret-aware modeling, network optimization, and data-driven analysis.
+- `Methods:` mixed-integer optimization, regret-aware and two-stage modeling, Dynamic Mode Decomposition, and data-driven network analysis.
+- `Community:` President of the Oklahoma IISE student chapter.
 
 ## Research Direction
 
@@ -50,17 +51,17 @@ I include only a few projects here to show the kinds of modeling questions and t
 
 <span class="project-badge project-badge--research">Research project</span>
 
-- Studies how park-location recommendations change when competing measures of need disagree.
-- I took the main role in formulating and coding the model, wrote the methods section, and edited the full paper text.
-- Led to an accepted conference proceedings paper, poster presentations, and ongoing work on parameterization regret in public planning.
+- Studies how park-location recommendations change when competing measures of community need disagree.
+- I formulated and implemented optimization models to compare siting decisions under different parameterizations and quantify the consequences of imperfect information.
+- Led to an accepted conference proceedings paper, poster presentations at *CalGIS 2026* and Clemson's Undergraduate Research Poster Symposium, and an accepted EEC Grantees Conference poster for September-October 2026.
 
-### Airline Network Dynamic Recovery
+### Airline Network Resilience and Dynamic Recovery
 
 <span class="project-badge project-badge--current">Current research project</span>
 
-- Examines how airline networks respond to disruption and recover over time.
-- Uses Dynamic Mode Decomposition and network-based analysis to study resilience patterns that static summaries can miss.
-- Extends my interest in decision support under imperfect information to large transportation systems.
+- Examines the resilience and temporal behavior of airline transportation networks under disruption.
+- Uses Dynamic Mode Decomposition to build a multi-resolution, tensor-based view of network behavior across multiple time scales.
+- Represents airline flow structure as adjacency tensors and evaluates the approach on Bureau of Transportation Statistics data.
 
 ### Multi-Objective Workforce Scheduling Under Preference Constraints
 
@@ -87,10 +88,10 @@ I include only a few projects here to show the kinds of modeling questions and t
       <div class="about-experience__text">
         <h3><a href="https://andresdgonzalez.com/">NetSys Research Lab</a></h3>
         <p>The NetSys Research Lab at the University of Oklahoma studies the performance, robustness, and resilience of cyber-physical-social systems and interdependent networks.</p>
-        <p>My current work examines airline network resilience through Dynamic Mode Decomposition and network-based analysis, with the goal of understanding how disruptions propagate and how large transportation systems recover over time.</p>
+        <p>My current work examines airline network resilience through Dynamic Mode Decomposition and tensor-based network analysis, with the goal of understanding how disruptions propagate and how large transportation systems recover over time.</p>
       </div>
       <aside class="journey-state-card" aria-label="Oklahoma research location">
-        <p class="journey-state-card__eyebrow">2025-2026</p>
+        <p class="journey-state-card__eyebrow">2025-Present</p>
         <div class="journey-state-card__map">
           <div class="journey-state-card__map-shape journey-state-card__map-shape--oklahoma" aria-hidden="true"></div>
           <div class="journey-state-card__marker" data-city-marker style="--marker-x: 64.0058%; --marker-y: 52.0377%;">
@@ -110,7 +111,7 @@ I include only a few projects here to show the kinds of modeling questions and t
         <h3><a href="https://sites.google.com/view/emilyltucker/home?authuser=0">Tucker Research Group</a></h3>
         <p>The Tucker Research Group at Clemson University studies how operations research can improve access, social good, and decision-making in systems under strain.</p>
         <p>During the Human-Centered Operations Research and Engineering (<a href="https://cecas.clemson.edu/hcore/">H-CORE</a>) REU, I worked on park-access optimization in Greenville County, South Carolina, studying how different need indices and modeling assumptions change recommended investment decisions.</p>
-        <p>That project led to an accepted IISE conference paper, multiple poster presentations, and my continuing interest in regret-aware optimization for public planning.</p>
+        <p>That project led to an accepted IISE conference proceedings paper, poster presentations at <em>CalGIS 2026</em> and Clemson's Undergraduate Research Poster Symposium, and an accepted poster for the NSF Engineering Education and Centers (EEC) Grantees Conference in September-October 2026.</p>
       </div>
       <aside class="journey-state-card" aria-label="South Carolina research location">
         <p class="journey-state-card__eyebrow">2025</p>
